@@ -1,0 +1,135 @@
+
+.login-pagina {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 16px;
+  background: linear-gradient(135deg, #e8f5f5, #f3f8ff);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.login-panel {
+  width: 100%;
+  max-width: 460px;
+  background: white;
+  padding: 42px;
+  border-radius: 20px;
+  box-shadow: 0 12px 45px rgba(20, 70, 90, 0.10);
+}
+
+.login-volver {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: transparent;
+  color: #526879;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #078b89;
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.login-panel h1 {
+  color: #173b4b;
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+.login-descripcion {
+  color: #788994;
+  margin-bottom: 28px;
+}
+
+.login-campo {
+  display: block;
+  color: #344d5a;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+
+.login-input {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid #dce7eb;
+  border-radius: 10px;
+  padding: 0 13px;
+  margin-top: 9px;
+  color: #07918e;
+  height: 49px;
+}
+
+.login-input:focus-within {
+  border-color: #07918e;
+  box-shadow: 0 0 0 3px rgba(7, 145, 142, 0.10);
+}
+
+.login-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  color: #243e4b;
+}
+
+.login-boton {
+  width: 100%;
+  height: 49px;
+  border: none;
+  border-radius: 10px;
+  background: #078f8c;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-boton:hover {
+  background: #067572;
+}
+
+.login-cambiar {
+  text-align: center;
+  color: #758792;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.login-cambiar button {
+  border: none;
+  background: transparent;
+  color: #078b89;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.login-seguridad {
+  text-align: center;
+  color: #9aaab2;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  .login-panel {
+    padding: 28px 22px;
+  }
+
+  .login-panel h1 {
+    font-size: 24px;
+  }
+}
