@@ -1,16 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# NovaWeb - Botica Nova Salud
 
-Currently, two official plugins are available:
+Sistema web para la gestión y venta de productos de farmacia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- JavaScript
+- Vite
+- CSS
+- Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades actuales
 
-## Expanding the ESLint configuration
+- Catálogo de productos.
+- Buscador de productos.
+- Filtros por categorías.
+- Carrito de compras.
+- Control de cantidades.
+- Pantalla de inicio de sesión.
+- Formulario de registro de clientes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/leydimariluzc-cloud/novaweb.git
+```
+
+Ingresar a la carpeta:
+
+```bash
+cd novaweb
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Iniciar el proyecto:
+
+```bash
+npm run dev
+```
+
+## Proyecto
+
+**NovaWeb - Botica Nova Salud**
